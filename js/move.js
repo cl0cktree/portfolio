@@ -819,6 +819,9 @@ $(function(){
 			}else if (this==document.getElementById('wgrid-box-con22'))
 			{
 				datasum = 'data/data.html #filter-conbox-contents23';
+			}else if (this==document.getElementById('wgrid-box-con23'))
+			{
+				datasum = 'data/data.html #filter-conbox-contents24';
 			}
 
 			else if (this==document.getElementById('fgrid-box-con1'))
