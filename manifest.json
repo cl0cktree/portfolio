@@ -5,9 +5,9 @@
 
 "version": "1.0",
 
-"icons": {
+"icons": [{
     "16" : "./images/favicon.png",
     "48" : "./images/favicon.png",
     "128" : "./images/favicon.png"
-}
+}]
 }
