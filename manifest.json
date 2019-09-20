@@ -5,9 +5,26 @@
 
 "version": "1.0",
 
-"icons": [{
-    "16" : "./images/favicon.png",
-    "48" : "./images/favicon.png",
-    "128" : "./images/favicon.png"
-}]
+"icons": [
+    {
+        "src": "./images/favicon.png",
+        "sizes": "16x16",
+        "type": "image/webp"
+    },
+    {
+        "src": "./images/favicon.png",
+        "sizes": "48x48",
+        "type": "image/webp"
+    },
+    {
+        "src": "./images/favicon.png",
+        "sizes": "64x64",
+        "type": "image/webp"
+    },
+    {
+        "src": "./images/favicon.png",
+        "sizes": "128x128",
+        "type": "image/webp"
+    }
+]
 }
