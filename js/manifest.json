@@ -1,0 +1,13 @@
+{
+"manifest_version": 2,
+
+"name": "Welcome to Lee.HyunSup Portfolio Site - one page",
+
+"version": "1.0",
+
+"icons": {
+    "16" : "images/favicon.png",
+    "48" : "images/favicon.png",
+    "128" : "images/favicon.png"
+}
+}
