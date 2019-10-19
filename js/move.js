@@ -1557,20 +1557,8 @@ $(function(){
 		}();
 
 			function setLayout() {
-				var height_val;
-				if(window.innerWidth<=720){
-					height_val=(window.innerHeight%window.innerWidth)*1.1;
-					if(window.innerWidth<=640){
-						height_val=window.innerHeight*0.12+window.innerWidth*0.24;
-						if(window.innerWidth<=480){
-							height_val=window.innerHeight*0.1+window.innerWidth*0.1;
-						}
-					}
-				}else{
-					height_val=window.innerHeight%3;
-				}
 				canvas.width = window.innerWidth;
-				canvas.height = window.innerHeight-height_val;
+				canvas.height = window.innerHeight*1.2;
 			}
 
 			function init() {
@@ -1612,7 +1600,7 @@ $(function(){
 
 				if (circle.y < -circle.radius) {
 					circle.y = canvas.height;
-					circle.x = Math.random() * window.innerWidth * 0.6 + Math.random() * window.innerWidth * 0.4;
+					circle.x = Math.random() * window.innerWidth * 0.8 + Math.random() * window.innerWidth * 0.2;
 					circle.radius = Math.floor(Math.random() * 60) + 15;
 				}
 
